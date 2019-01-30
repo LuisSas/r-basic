@@ -68,9 +68,28 @@ factorial(0)
 
 # Coeficiente bonimial: Se define el coeficiente bonimial 
 # de n sobre m como
+
 choose(5, 1)
 choose(3, 5)
 
 log(4^6, 4)
 6 ^ log(4, 6)
 
+choose(3, 1)
+choose(5, 2)
+
+sin(60*pi/180)
+
+cos(60*pi/180)
+
+sinpi(1/2) # = sin(pi/2) 
+
+tan(pi) # -1.224647e-16 ~ 0
+
+tan(pi/2) # 1.224647e-16 ~ Inf
+
+asin(0.8660254) * 180 / pi # arc sin en grados
+
+# arc sin x in [-1, 1]
+asin(5) # NaN
+acos(-8) # NaN
