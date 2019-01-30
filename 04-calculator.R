@@ -58,6 +58,9 @@ log(pi)
 
 log(32, 2)
 
+log(x = 32, base = 2)
+log(base = 2, x = 32)
+
 abs(-pi)
 
 # Número factorial: Se define como número factorial de un número
@@ -93,3 +96,35 @@ asin(0.8660254) * 180 / pi # arc sin en grados
 # arc sin x in [-1, 1]
 asin(5) # NaN
 acos(-8) # NaN
+
+# Números en coma flotante
+sqrt(2)
+print(sqrt(2), 10) # Muestra las n cifras significativas del número x
+round(sqrt(2), 3) # Redonde a n cifras significativas un resultado o vector númerico x
+floor(sqrt(2)) # Redondea al valor entero por defecto
+ceiling(sqrt(2)) # Redondea al valor entero por exceso de x
+trunc(sqrt(2)) # Parte entera de x, eliminando la parte decimal
+
+sqrt(2)^2-2 # 4.440892e-16 ~ 0
+
+round(sqrt(2), 4)^2
+
+2^50
+print(2^50, 15)
+print(2^50, 2)
+print(pi, 22)
+
+# En caso de empate redondea a la cifra par
+round(1.25, 1) # 1.2
+round(1.35, 1) # 1.4
+round(sqrt(2), 0)
+round(sqrt(2))
+
+# Se puede modificar el uso de las funciones, especificando el nombre
+round(digits = 5, sqrt(2))
+round(5, sqrt(2))
+
+# El redondeo de números negativos
+floor(-3.45) # -4
+ceiling(-3.45) # -3
+trunc(-3.45) # Elimina valores decimales
